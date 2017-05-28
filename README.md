@@ -26,9 +26,9 @@ the request returns the following json:
 
 ```json
 {
-  "title": "BnbManager",
-  "pic": "https://cdn.filepicker.io/api/file/AlWFuVc2SJ2WZnifpgp5",
-  "logo": "https://cdn.filepicker.io/api/file/QYlJ9dOS7Kj4sSsTGwrj",
+  "title": "Website Title",
+  "pic": "path/to/image.png",
+  "logo": "path/to/image.png",
   "defaultStatusForNewReservations": "inquiry",
   "maxGuests": 4,
   "defaultSort": "title",
