@@ -80,7 +80,7 @@ you should pass the following QueryString params:
 | ------------- | ------------- |
 | fields        | terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms  |
 
-### GET` /listings/cities
+### `GET` /listings/cities
 > get available cities for listings (city picker). request returns following json:
 
 ```json
