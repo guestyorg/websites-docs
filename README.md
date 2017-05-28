@@ -8,7 +8,7 @@ all api endpoints are following the api url: `/api/v2`
 ## Api Token
 you will find the website Token on the `window` global in `window.Token` property.
 
-all request should add `Authorization` header as the following:
+all requests should add `Authorization` header as the following:
 
 ```
 Authoriztion: Bearer (website Token string)
@@ -17,7 +17,7 @@ Authoriztion: Bearer (website Token string)
 ## Api End-Points
 
 ### `GET` /websites
-> information about website configurtion, sections and section types  
+> information about website configuration, sections and section types  
 the request returns the following json:
 
 ```json
