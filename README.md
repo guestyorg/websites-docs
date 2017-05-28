@@ -4,7 +4,7 @@
  
 ## Example
 to run example use `npm install` then `npm start`. checkout console in the browser.  
-you can change the `base_url` in the [api.js](src/api.js) file.
+you can change the `base_url` in the [api.js](src/api.js#L2) file.
 
 ## Api Url
 all api endpoints are following the api url: `/api/v2`
