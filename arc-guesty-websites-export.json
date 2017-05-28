@@ -1,0 +1,712 @@
+{
+  "createdAt": "2017-05-28T13:54:19.590Z",
+  "version": "9.14.64.305",
+  "kind": "ARC#AllDataExport",
+  "requests": [
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NmY5M2JlZWEyYTM0YmVjMzYwNWY5ZDQiLCJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJuYW1lIjoidHdhbkBibmJtYW5hZ2VyLm5sIiwiZGIiOiJsb2dpbnMiLCJyb2xlIjoidXNlciIsImhhc2giOiI2YzgyOWU1MGM1ZTY0ZThmYmJjODNjYWJiOTY1YWY5MSIsImlhdCI6MTQ5NTk2MjA0MiwiZXhwIjoxNDk2NTY2ODQyfQ.S2hhzqNtjorFgWozGBdBjrh5pn1H13MDXGZNB_uX3OM",
+      "method": "GET",
+      "name": "accounts/me",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/accounts/me",
+      "updated": 1495962089513,
+      "_referenceLegacyProject": "9aa50c37-d1fa-49c7-98d8-5cdeb5d50780",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json",
+      "method": "POST",
+      "name": "authenticate",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"websiteId\":\"592acbbbd491e69c0539da55\", \"accountId\": \"55b9f9b5393dfe0e004b6c5d\" }",
+      "url": "http://localhost:3000/api/v2/authenticate",
+      "updated": 1495977053075,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json",
+      "method": "POST",
+      "name": "authonticate",
+      "payload": "{\n\t\"apiKey\":\"T26830axRZk77paW4p7u22ypRUhZ7F3m\",\n\t\"username\": \"twan@bnbmanager.nl\",\n    \"password\": \"newPassword123\"\n  \n}",
+      "url": "http://localhost:3000/api/v2/authenticate",
+      "updated": 1495625910447,
+      "_referenceLegacyProject": "9aa50c37-d1fa-49c7-98d8-5cdeb5d50780",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "POST",
+      "name": "contact",
+      "payload": "{\n\t\"name\": \"fullName\",\n\t\"email\": \"email\",\n  \t\"subject\": \"subject\",\n  \t\"message\": \"message\"\n}",
+      "url": "http://localhost:3000/api/v2/contact",
+      "updated": 1495977030899,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "name": "listings/:id",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/57e2476e58621d0f003eaac5?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "updated": 1495977018319,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "name": "listings/cities",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/cities",
+      "updated": 1495977024465,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "name": "listings",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "updated": 1495977003942,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "POST",
+      "name": "reservations/create",
+      "payload": "{\n\t\"name\": \"fullName\",\n\t\"email\": \"email\",\n  \t\"subject\": \"subject\",\n  \t\"message\": \"message\",\n\t\"credit-card\": \"creditCard\"\n}",
+      "url": "http://localhost:3000/api/v2/reservations/create",
+      "updated": 1495977040516,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "name": "websites/:section",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/info",
+      "updated": 1495976991169,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "name": "websites",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites",
+      "updated": 1495977106668,
+      "_referenceLegacyProject": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "POST",
+      "name": "websites",
+      "payload": "{\n  \"accountId\": \"55b9f9b5393dfe0e004b6c5d\",\n  \"url\": \"55b9f9b5393dfe0e004b6c5d\",\n  \"title\": \"BnbManager\",\n  \"pic\": \"https://cdn.filepicker.io/api/file/AlWFuVc2SJ2WZnifpgp5\",\n  \"logo\": \"https://cdn.filepicker.io/api/file/QYlJ9dOS7Kj4sSsTGwrj\",\n  \"sections\": [\n    {\n      \"index\": 0,\n      \"name\": \"About\",\n      \"type\": \"INFO\",\n      \"payload\": {\n        \"title\": \"About Us\",\n        \"description\": \"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aspernatur culpa ea eum explicabo fuga hic id in itaque minus nesciunt praesentium, quaerat, quisquam sapiente sequi tempore voluptate? Similique.\"\n      }\n    },\n    {\n      \"index\": 1,\n      \"name\": \"Services\",\n      \"type\": \"SERVICES\",\n      \"payload\": {\n        \"title\": \"Our Services\",\n        \"items\": [\n          {\n            \"text\": \"service 1\",\n            \"icon\": \"icon1.png\"\n          },\n          {\n            \"text\": \"service 2\",\n            \"icon\": \"icon2.png\"\n          },\n          {\n            \"text\": \"service 3\",\n            \"icon\": \"icon3.png\"\n          }\n        ]\n      }\n    },\n    {\n      \"index\": 2,\n      \"name\": \"Contact\",\n      \"type\": \"CONTACT\",\n      \"payload\": {\n        \"title\": \"Contact Us\"\n      }\n    }\n  ],\n  \"defaultStatusForNewReservations\": \"inquiry\",\n  \"maxGuests\": 4,\n  \"defaultSort\": \"title\",\n  \"includedListings\": [\n    \"568268ad8c44560e008e15fb\"\n  ],\n  \"excludedListings\": []\n}",
+      "url": "http://localhost:3000/api/v2/websites",
+      "updated": 1495979609872,
+      "_referenceLegacyProject": "9aa50c37-d1fa-49c7-98d8-5cdeb5d50780",
+      "kind": "ARC#RequestData"
+    }
+  ],
+  "projects": [
+    {
+      "name": "guesty website",
+      "order": 0,
+      "created": 1495375595956,
+      "updated": 1495375595963,
+      "_referenceId": "2a2d7d82-e188-41a6-8f5f-6bc85ee2bdd7",
+      "kind": "ARC#ProjectData"
+    },
+    {
+      "name": "guesty",
+      "order": 0,
+      "created": 1495625910413,
+      "updated": 1495625910414,
+      "_referenceId": "9aa50c37-d1fa-49c7-98d8-5cdeb5d50780",
+      "kind": "ARC#ProjectData"
+    }
+  ],
+  "history": [
+    {
+      "created": 1495373995986,
+      "updated": 1495376924731,
+      "headers": "Content-Type: application/json",
+      "method": "POST",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/authenticate",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495376384531,
+      "updated": 1495376955543,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/57e2476e58621d0f003eaac5?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495375359674,
+      "updated": 1495376946569,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495445960238,
+      "updated": 1495445960238,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/account/me",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495446025087,
+      "updated": 1495446031329,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/accounts/me/stats",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495445955101,
+      "updated": 1495446350186,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/accounts/me",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495445948649,
+      "updated": 1495445948649,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/accounts",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495454184307,
+      "updated": 1495454184307,
+      "headers": "Content-Type: application/json",
+      "method": "POST",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/authenticate",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495446921769,
+      "updated": 1495446921769,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "POST",
+      "payload": "{\n\t\"name\": \"fullName\",\n\t\"email\": \"email\",\n  \t\"subject\": \"subject\",\n  \t\"message\": \"message\"\n}",
+      "url": "http://localhost:3000/api/v2/contact",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495445919732,
+      "updated": 1495446356033,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/57e2476e58621d0f003eaac5?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495446328036,
+      "updated": 1495446347534,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/cities",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495445990543,
+      "updated": 1495446575377,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495541585764,
+      "updated": 1495541585764,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/563e16c2bfadab03001a4a28?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495541556034,
+      "updated": 1495541556034,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/57e2476e58621d0f003eaac5?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495541573400,
+      "updated": 1495551503930,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495551831174,
+      "updated": 1495551831174,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495556160456,
+      "updated": 1495556160456,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/contact?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495551839762,
+      "updated": 1495556129080,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/info?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495556223845,
+      "updated": 1495556246499,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/info",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495551691419,
+      "updated": 1495551691419,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/meta/title?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495551681249,
+      "updated": 1495551681249,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/meta?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495556146627,
+      "updated": 1495556146627,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/services?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495556251412,
+      "updated": 1495556308388,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/services",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495551510545,
+      "updated": 1495556134681,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495626196322,
+      "updated": 1495626196322,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NmY5M2JlZWEyYTM0YmVjMzYwNWY5ZDQiLCJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJuYW1lIjoidHdhbkBibmJtYW5hZ2VyLm5sIiwiZGIiOiJsb2dpbnMiLCJyb2xlIjoidXNlciIsImhhc2giOiJiMGNhN2U3YTE2ZWUzNDhiZTdhMTg1ODAxMWI4NDQxOSIsImlhdCI6MTQ5NTYyNjExMSwiZXhwIjoxNDk2MjMwOTExfQ.IfIB8G_oLZDAEZ16R0ahjd-ErO6aMWy2zMslLvxxJvU",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/account/me",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495626205131,
+      "updated": 1495626205131,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NmY5M2JlZWEyYTM0YmVjMzYwNWY5ZDQiLCJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJuYW1lIjoidHdhbkBibmJtYW5hZ2VyLm5sIiwiZGIiOiJsb2dpbnMiLCJyb2xlIjoidXNlciIsImhhc2giOiJiMGNhN2U3YTE2ZWUzNDhiZTdhMTg1ODAxMWI4NDQxOSIsImlhdCI6MTQ5NTYyNjExMSwiZXhwIjoxNDk2MjMwOTExfQ.IfIB8G_oLZDAEZ16R0ahjd-ErO6aMWy2zMslLvxxJvU",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/accounts/me",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495625919449,
+      "updated": 1495626109541,
+      "headers": "Content-Type: application/json",
+      "method": "POST",
+      "payload": "{\n\t\"apiKey\":\"T26830axRZk77paW4p7u22ypRUhZ7F3m\",\n\t\"username\": \"twan@bnbmanager.nl\",\n    \"password\": \"newPassword123\"\n  \n}",
+      "url": "http://localhost:3000/api/v2/authenticate",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495616913860,
+      "updated": 1495616913860,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/contact?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495616920613,
+      "updated": 1495616920613,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/contact",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495616724913,
+      "updated": 1495625537518,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/info",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495616708212,
+      "updated": 1495616708212,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/services",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495613663383,
+      "updated": 1495616903568,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495962026929,
+      "updated": 1495962052175,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NmY5M2JlZWEyYTM0YmVjMzYwNWY5ZDQiLCJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJuYW1lIjoidHdhbkBibmJtYW5hZ2VyLm5sIiwiZGIiOiJsb2dpbnMiLCJyb2xlIjoidXNlciIsImhhc2giOiI2YzgyOWU1MGM1ZTY0ZThmYmJjODNjYWJiOTY1YWY5MSIsImlhdCI6MTQ5NTk2MjA0MiwiZXhwIjoxNDk2NTY2ODQyfQ.S2hhzqNtjorFgWozGBdBjrh5pn1H13MDXGZNB_uX3OM",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/account/me",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495962065412,
+      "updated": 1495976627022,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NmY5M2JlZWEyYTM0YmVjMzYwNWY5ZDQiLCJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJuYW1lIjoidHdhbkBibmJtYW5hZ2VyLm5sIiwiZGIiOiJsb2dpbnMiLCJyb2xlIjoidXNlciIsImhhc2giOiI2YzgyOWU1MGM1ZTY0ZThmYmJjODNjYWJiOTY1YWY5MSIsImlhdCI6MTQ5NTk2MjA0MiwiZXhwIjoxNDk2NTY2ODQyfQ.S2hhzqNtjorFgWozGBdBjrh5pn1H13MDXGZNB_uX3OM",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/accounts/me",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495962041177,
+      "updated": 1495976936889,
+      "headers": "Content-Type: application/json",
+      "method": "POST",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"websiteId\":\"592acbbbd491e69c0539da55\", \"accountId\": \"55b9f9b5393dfe0e004b6c5d\" }",
+      "url": "http://localhost:3000/api/v2/authenticate",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495974527522,
+      "updated": 1495977064942,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/57e2476e58621d0f003eaac5?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495974530793,
+      "updated": 1495978305005,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings/cities",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495974515824,
+      "updated": 1495977069698,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/listings?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495961662801,
+      "updated": 1495962007189,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NjNlMGI2YTA4YTI3MTBlMDAwNTdiODIiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1Mzc1MDg5LCJleHAiOjE0OTU5Nzk4ODl9.2E9d5diG0a8WR64z_T6fER-rubEfW24qqHLa25fnP-A",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/info/1",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495961657966,
+      "updated": 1495977619674,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/info",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495975619810,
+      "updated": 1495975619810,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhYjY3YWMwMDdmYjFjMzdjZjEzMzEiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTcyODg4LCJleHAiOjE0OTY1Nzc2ODh9.AEmKMhOJdhPfjvIgujqPuHMdBdQ2VPG_A8d4BJtQ_fE",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites/test/1",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495961653184,
+      "updated": 1495977516659,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhY2JiYmQ0OTFlNjljMDUzOWRhNTUiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTc2OTM2LCJleHAiOjE0OTY1ODE3MzZ9.687WGnh1WcD6itnMYU726kljSMQI1u7Ftls9g8jklps",
+      "method": "GET",
+      "payload": "{\"apiKey\":\"UK1tP9HwFo4Evp8iR41gVbf5YkOLTcFY\",\"wUrl\":\"bnbair\"}",
+      "url": "http://localhost:3000/api/v2/websites",
+      "kind": "ARC#HistoryData"
+    },
+    {
+      "created": 1495971004079,
+      "updated": 1495976891604,
+      "headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1NWI5ZjliNTM5M2RmZTBlMDA0YjZjNWQiLCJ3ZWJzaXRlSWQiOiI1OTJhYjY3YWMwMDdmYjFjMzdjZjEzMzEiLCJuYW1lIjoid2Vic2l0ZSIsInJvbGUiOiJ3ZWJzaXRlIiwiaWF0IjoxNDk1OTcyODg4LCJleHAiOjE0OTY1Nzc2ODh9.AEmKMhOJdhPfjvIgujqPuHMdBdQ2VPG_A8d4BJtQ_fE",
+      "method": "POST",
+      "payload": "{\n  \"accountId\": \"55b9f9b5393dfe0e004b6c5d\",\n  \"url\": \"55b9f9b5393dfe0e004b6c5d\",\n  \"title\": \"BnbManager\",\n  \"pic\": \"https://cdn.filepicker.io/api/file/AlWFuVc2SJ2WZnifpgp5\",\n  \"logo\": \"https://cdn.filepicker.io/api/file/QYlJ9dOS7Kj4sSsTGwrj\",\n  \"sections\": [\n    {\n      \"index\": 0,\n      \"name\": \"About\",\n      \"type\": \"INFO\",\n      \"payload\": {\n        \"title\": \"About Us\",\n        \"description\": \"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aspernatur culpa ea eum explicabo fuga hic id in itaque minus nesciunt praesentium, quaerat, quisquam sapiente sequi tempore voluptate? Similique.\"\n      }\n    },\n    {\n      \"index\": 1,\n      \"name\": \"Services\",\n      \"type\": \"SERVICES\",\n      \"payload\": {\n        \"title\": \"Our Services\",\n        \"items\": [\n          {\n            \"text\": \"service 1\",\n            \"icon\": \"icon1.png\"\n          },\n          {\n            \"text\": \"service 2\",\n            \"icon\": \"icon2.png\"\n          },\n          {\n            \"text\": \"service 3\",\n            \"icon\": \"icon3.png\"\n          }\n        ]\n      }\n    },\n    {\n      \"index\": 2,\n      \"name\": \"Contact\",\n      \"type\": \"CONTACT\",\n      \"payload\": {\n        \"title\": \"Contact Us\"\n      }\n    }\n  ],\n  \"defaultStatusForNewReservations\": \"inquiry\",\n  \"maxGuests\": 4,\n  \"defaultSort\": \"title\",\n  \"includedListings\": [\n    \"568268ad8c44560e008e15fb\"\n  ],\n  \"excludedListings\": []\n}",
+      "url": "http://localhost:3000/api/v2/websites",
+      "kind": "ARC#HistoryData"
+    }
+  ],
+  "url-history": [
+    {
+      "cnt": 1,
+      "time": 1495376253145,
+      "key": "http://localhost:3000/api/v2/57e2476e58621d0f003eaac5/listings?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 4,
+      "time": 1495962052158,
+      "key": "http://localhost:3000/api/v2/account/me",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495445948633,
+      "key": "http://localhost:3000/api/v2/accounts",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 12,
+      "time": 1495976626945,
+      "key": "http://localhost:3000/api/v2/accounts/me",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 2,
+      "time": 1495446031300,
+      "key": "http://localhost:3000/api/v2/accounts/me/stats",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 22,
+      "time": 1495976936872,
+      "key": "http://localhost:3000/api/v2/authenticate",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495446921752,
+      "key": "http://localhost:3000/api/v2/contact",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495541585750,
+      "key": "http://localhost:3000/api/v2/listings/563e16c2bfadab03001a4a28?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 9,
+      "time": 1495977064922,
+      "key": "http://localhost:3000/api/v2/listings/57e2476e58621d0f003eaac5?fields=terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 5,
+      "time": 1495978304987,
+      "key": "http://localhost:3000/api/v2/listings/cities",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495375306784,
+      "key": "http://localhost:3000/api/v2/listings?active=true",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495375366743,
+      "key": "http://localhost:3000/api/v2/listings?active=true&listed=true",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 13,
+      "time": 1495977069690,
+      "key": "http://localhost:3000/api/v2/listings?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 55,
+      "time": 1495977516647,
+      "key": "http://localhost:3000/api/v2/websites",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495551831148,
+      "key": "http://localhost:3000/api/v2/websites/?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495616920587,
+      "key": "http://localhost:3000/api/v2/websites/contact",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 2,
+      "time": 1495616913846,
+      "key": "http://localhost:3000/api/v2/websites/contact?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 20,
+      "time": 1495977619636,
+      "key": "http://localhost:3000/api/v2/websites/info",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 8,
+      "time": 1495962007153,
+      "key": "http://localhost:3000/api/v2/websites/info/1",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 16,
+      "time": 1495556129039,
+      "key": "http://localhost:3000/api/v2/websites/info?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495551691398,
+      "key": "http://localhost:3000/api/v2/websites/meta/title?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495551681229,
+      "key": "http://localhost:3000/api/v2/websites/meta?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 3,
+      "time": 1495616708190,
+      "key": "http://localhost:3000/api/v2/websites/services",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495556146599,
+      "key": "http://localhost:3000/api/v2/websites/services?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495975619786,
+      "key": "http://localhost:3000/api/v2/websites/test/1",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 6,
+      "time": 1495556134669,
+      "key": "http://localhost:3000/api/v2/websites?active=true&listed=true&fields=_id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495374969196,
+      "key": "https://localhost:3000/api/v2/authenticate",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 4,
+      "time": 1495374302559,
+      "key": "https://superhostuser.herokuapp.com/api/v2/api/v2/authenticate",
+      "kind": "ARC#UrlHistoryData"
+    },
+    {
+      "cnt": 1,
+      "time": 1495375000195,
+      "key": "https://superhostuser.herokuapp.com/api/v2/authenticate",
+      "kind": "ARC#UrlHistoryData"
+    }
+  ],
+  "variables": []
+}
