@@ -3,16 +3,16 @@
 > documentation for pms websites api. 
  
 ## Example
-to run example use `npm install` then `npm start`. checkout console in the browser.  
+To run example use `npm install` then `npm start`. checkout console in the browser.  
 you can change the `base_url` in the [api.js](src/api.js#L2) file.
 
 ## Api Url
-all api endpoints are following the api url: `/api/v2`
+All api endpoints are following the api url: `/api/v2`
 
 ## Api Token
-you will find the website Token on the `window` global in `window.Token` property.
+You will find the website Token on the `window` global in `window.Token` property.
 
-all requests should add `Authorization` header as the following:
+All requests should add `Authorization` header as the following:
 
 ```
 Authoriztion: Bearer (website Token string)
@@ -21,7 +21,7 @@ Authoriztion: Bearer (website Token string)
 ## Api End-Points
 
 ### `GET` /websites
-> information about website configuration, sections and section types  
+> Information about website configuration, sections and section types  
 the request returns the following json:
 
 ```json
@@ -55,7 +55,7 @@ the request returns the following json:
 
 ### `GET` /websites/:section
 
-> section data by section type ie: INFO, SERVICES, CONTACT.  
+> Section data by section type ie: INFO, SERVICES, CONTACT.  
 a request to retrieve the info section `/websites/info` returns the following json:
 
 ```json
@@ -67,7 +67,7 @@ a request to retrieve the info section `/websites/info` returns the following js
 ```
 
 ### `GET` /listings
-> retrieve all active and listed listings  
+> Retrieve all active and listed listings  
 you should pass the following QueryString Params:
 
 | Param         | Value         |
@@ -77,7 +77,7 @@ you should pass the following QueryString Params:
 | fields        | _id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large  |
 
 ### `GET` /listings/:id
-> retrieve a listing by id
+> Retrieve a listing by id
 you should pass the following QueryString params:
 
 | Param         | Value         |
@@ -85,7 +85,7 @@ you should pass the following QueryString params:
 | fields        | terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms  |
 
 ### `GET` /listings/cities
-> get available cities for listings (city picker). request returns following json:
+> Get available cities for listings (city picker). request returns following json:
 
 ```json
 [
@@ -111,7 +111,7 @@ you should pass the following QueryString params:
 
 ### `POST` /contact
 
-> sends an email from the contact form. should send the following payload:
+> Sends an email from the contact form. should send the following payload:
 
 ```json
 {
@@ -124,7 +124,7 @@ you should pass the following QueryString params:
 
 ### `POST` /reservations/create
 
-> create reservation from booking form. should send the following payload:
+> Create reservation from booking form. should send the following payload:
 
 ```json
 {
