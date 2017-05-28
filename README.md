@@ -72,7 +72,7 @@ you should pass the following QueryString Params:
 | listed        | true          |
 | fields        | _id terms accommodates title beds propertyType address.city address.country address.state address.street publicDescription picture.regular picture.large  |
 
-`GET` /listings/:id
+### `GET` /listings/:id
 > retrieve a listing by id
 you should pass the following QueryString params:
 
@@ -80,7 +80,7 @@ you should pass the following QueryString params:
 | ------------- | ------------- |
 | fields        | terms publicDescription prices amenities pictures address.street address.state address.country address.city beds bedrooms title timezone defaultCheckOutTime defaultCheckInTime _id bathrooms accommodates roomType propertyType beds bedrooms  |
 
-`GET` /listings/cities
+### GET` /listings/cities
 > get available cities for listings (city picker). request returns following json:
 
 ```json
