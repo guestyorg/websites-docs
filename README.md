@@ -5,7 +5,7 @@
 ## Api Url
 all api endpoints are following the api url: `/api/v2`
 
-### Api Token
+## Api Token
 you will find the website Token on the `window` global in `window.Token` property.
 
 all request should add `Authorization` header as the following:
