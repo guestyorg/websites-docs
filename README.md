@@ -1,6 +1,10 @@
 # websites-docs
 
-> documentation for pms websites api
+> documentation for pms websites api. 
+ 
+## Example
+to run example use `npm install` then `npm start`. checkout console in the browser.  
+you can change the `base_url` in the [api.js](src/api.js) file.
 
 ## Api Url
 all api endpoints are following the api url: `/api/v2`
