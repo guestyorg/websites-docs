@@ -10,7 +10,8 @@ you can change the `base_url` in the [api.js](src/api.js#L2) file.
 All api endpoints are following the api url: `/api/v2`
 
 ## Api Token
-You will find the website Token on the `window` global in `window.Token` property.
+Go to http://bnbmanager.guestybookings.com/ 
+you will find the website Token on the `window` global in `window.appConfig.token` property.
 
 All requests should add `Authorization` header as the following:
 
