@@ -1,4 +1,5 @@
-const http = require('axios');
+import http from 'axios';
+
 const base_url = 'http://localhost:3000/api/v2';
 const headers = {
   Authorization: 'Bearer ask-for-website-token'
